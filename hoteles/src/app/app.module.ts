@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { FormularioreservasComponent } from './formularioreservas/formularioreservas.component';
 import { ReservasComponent } from './reservas/reservas.component';
 import { InfHotelComponent } from './inf-hotel/inf-hotel.component';
+import { HabitacionesComponent } from './habitaciones/habitaciones.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { InfHotelComponent } from './inf-hotel/inf-hotel.component';
     FooterComponent,
     FormularioreservasComponent,
     ReservasComponent,
-    InfHotelComponent
+    InfHotelComponent,
+    HabitacionesComponent
   ],
   imports: [
     BrowserModule,
